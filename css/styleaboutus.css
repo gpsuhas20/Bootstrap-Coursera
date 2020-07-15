@@ -1,0 +1,32 @@
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background-color:purple ;
+    color:floralwhite;
+}
+
+.history-content
+{
+    padding: 100px;
+}
+.above-footer
+{
+    margin-bottom: 100px;
+}
+.row-header
+{
+    margin:20px auto;
+    padding:0px;
+}
+.footer
+{
+    background-color: #D1C4E9;
+    padding:20px 10px 20px 10px;
+    margin:0px auto;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
