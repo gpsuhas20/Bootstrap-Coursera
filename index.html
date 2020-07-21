@@ -33,7 +33,7 @@
                     <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span>Contact</a></li>
                 </ul> 
                 <span class="navbar-text"><!-- this is used to trigger the modal-->
-                    <a data-toggle="modal" data-target="#loginModal">
+                    <a data-toggle="modal" id="modal-button"><!--data-target="#loginModal"-->
                     <span class="fa fa-sign-in"></span> Login</a>
                 </span>   
                 </div>        
@@ -94,8 +94,8 @@
             <div class="col-12 col-sm">
 
                 <span class="navbar-text"><!-- this is used to trigger the modal-->
-                    <a data-toggle="modal" data-target="#reserve" class="btn btn-block nav-link btn-warning">
-                    Reserve Table</a>
+                    <a data-toggle="modal" id="res"  class="btn btn-block nav-link btn-warning">
+                    Reserve Table</a><!--data-target="#reserve"-->
                 </span>   
                 <!-- data toggle means modal -->
                 <!--<a role="button" class="btn btn-block nav-link btn-warning"
@@ -485,6 +485,18 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+ <script>
+
+     $("#modal-button").click(function()  // this is activating the modal using javascript
+     {
+         $("#loginModal").modal('toggle');
+     })
+     $("#res").click(()=> // using arrow functions this is for activating the reserve form using the modal.
+     {
+         $('#reserve').modal('toggle');
+     })
+ </script>
+
     <script>
         $("#carouselButton").click(function(){
                 if ($("#carouselButton").children("span").hasClass("fa-pause")) {
