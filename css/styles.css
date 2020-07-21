@@ -73,3 +73,7 @@ body {
 
 #bod {
   background-color: #D1C4E9; }
+a
+{
+  cursor: pointer;
+}
