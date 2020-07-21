@@ -72,3 +72,33 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+@mixin modal-head() {
+    
+        background-color: $background-dark;
+        text:white;
+    }
+@mixin modal-content(){
+    background-color: $background-light;
+    text:black;
+}
+    
+
+.modal-header{
+       @include modal-head();
+}
+    
+.modal-header{
+    color:floralwhite;
+}
+.modal-body{
+    @include modal-content();
+
+}
+.modal-outer
+{
+    @include modal-content();
+}
+.close
+{
+    color:floralwhite;
+}
