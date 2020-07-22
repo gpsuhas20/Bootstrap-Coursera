@@ -9,7 +9,7 @@
   min-height: 400px; }
 
 .footer {
-  background-color: #D1C4E9;
+  background-color: #9575CD;
   margin: 0px auto;
   padding: 20px 0px; }
 
@@ -73,7 +73,3 @@ body {
 
 #bod {
   background-color: #D1C4E9; }
-a
-{
-  cursor: pointer;
-}
