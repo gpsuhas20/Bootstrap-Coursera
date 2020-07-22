@@ -27,7 +27,7 @@
     "node-sass": "^4.14.1"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "bootstrap-social": "^5.1.1",
     "fontawesome": "^5.6.3",
     "install": "^0.13.0",
